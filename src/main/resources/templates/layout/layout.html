@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head th:fragment="head">
+        <title>Barber Premium</title>
+        <meta charset="UTF-8"/>   
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header th:fragment="header" class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand"> 
+                        <img src="../img/barberia_logo.png" alt="" width="40" height="40"/>
+                        <img src="../img/barberia_logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler" type="button" aria-controls="navbarNav" data-toggle="collapse"  
+                            aria-expanded="false" data-target="#hamburger" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="hamburger">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Eventos">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Galeria">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Productos">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Promociones">Promociones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Contacto">Contacto</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div> 
+            </nav>
+        </header>
+
+
+
+        <footer th:fragment="footer" class="p-2 mt-5 bg-info text-white">
+            <p class="lead text-center">Barber Premium, Todos los derechos reservados &COPY;</p>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</footer>
+
+</html>
